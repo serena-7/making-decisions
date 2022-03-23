@@ -87,6 +87,9 @@ if (temperature >= 80){
 */
 
 //CODE HERE
+for (let i = 0; i < 10; i++){
+  console.log("hello");
+}
 
 ////////// PROBLEM 6 //////////
 
@@ -95,6 +98,9 @@ if (temperature >= 80){
 */
 
 //CODE HERE
+for(let i = 0; i < 10; i++){
+  console.log(i + 1);
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -103,7 +109,9 @@ if (temperature >= 80){
 */
 
 //CODE HERE
-
+for(let i = 10; i > -1; i--){
+  console.log(i);
+}
 
 ////////// PROBLEM 8 //////////
 
@@ -115,6 +123,10 @@ let passingScore = 7;
 */
 
 //CODE HERE
+while(score < passingScore){
+  console.log("Your score is not high enough");
+  score++;
+}
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
